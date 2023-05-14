@@ -33,7 +33,7 @@
 
 | Шаг                                    | Команда                                                                        |
 | -------------------------------------- | ------------------------------------------------------------------------------ |
-| Клонируем                              | `git clone https://bitbucket.sberned.ru/scm/rcf/npm-component-boilerplate.git` |
+| Клонируем                              | `git clone https://github.com/Zerfo/react-component-boilerplate.git` |
 | Ставим зависимости                     | `npm ci`                                                                       |
 | Запускаем на <https://localhost:3000/> | `npm run dev`                                                                  |
 
@@ -86,7 +86,7 @@
 
 | Тип              | Инструмент                                                                                       |
 | ---------------- | ------------------------------------------------------------------------------------------------ |
-| eslint           | [eslint-plugin](https://bitbucket.sberned.ru/projects/RCF/repos/eslint-plugin/browse)            |
+| eslint           | [eslint-plugin](https://github.com/iamturns/eslint-config-airbnb-typescript)            |
 | stylelint        | [stylelint-config-sass-guidelines](https://github.com/bjankord/stylelint-config-sass-guidelines) |
 | unit-тесты       | [jest](https://jestjs.io/)                                                                       |
 | unit-тесты react | [react-testing-library](https://testing-library.com/docs/react-testing-library)                  |
