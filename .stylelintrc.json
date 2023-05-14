@@ -1,0 +1,7 @@
+{
+  "exclude": ["node_modules/**/*"],
+  "extends": ["stylelint-config-sass-guidelines"],
+  "rules": {
+    "selector-class-pattern": "^([a-z][a-z0-9]*)(_[a-z0-9]+)*((__([a-z][a-z0-9]*)(_[a-z0-9]+)*)?(--([a-z][a-z0-9]*)(_[a-z0-9]+)*)?)$"
+  }
+}

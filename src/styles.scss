@@ -1,0 +1,30 @@
+@use 'sass:color';
+
+.btn {
+  box-sizing: border-box;
+  padding: 10px 15px;
+  background-color: #19aa5b;
+  cursor: pointer;
+  border-width: 0;
+  border-radius: 5px;
+  box-shadow: 1px 1px 0 0.5px #808080ff;
+  color: #fff;
+  font-family: 'SeroPro', 'Arial', sans-serif;
+  transition: background-color 0.2s, box-shadow 0.2s;
+
+  &:hover {
+    background-color: #19aa5ad0;
+  }
+
+  &:active {
+    box-shadow: none;
+  }
+}
+
+.warning {
+  background-color: #ffa400;
+
+  &:hover {
+    background-color: #ffa600ba;
+  }
+}
