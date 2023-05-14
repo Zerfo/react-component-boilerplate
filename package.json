@@ -1,8 +1,15 @@
 {
   "name": "react-component-boilerplate",
-  "description": "typescript boilerplate for react npm-module",
+  "description": "Typescript boilerplate for react npm-module",
+  "keywords": [
+    "react",
+    "npm-package",
+    "boilerplate",
+    "typescript"
+  ],
   "author": "Nikolay Smekalin <nikolay.smekalin@gmail.com>",
   "license": "MIT",
+  "repository": "https://github.com/Zerfo/react-component-boilerplate",
   "version": "1.0.0",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -18,6 +25,7 @@
   "scripts": {
     "dev": "webpack serve --node-env=dev",
     "build": "rollup --config --failAfterWarnings && tsc-alias",
+    "check:ts": "tsc -p tsconfig.json --noEmit",
     "lint": "npm run lint:ts && npm run lint:style",
     "lint:ts": "eslint --ext .ts,.tsx src/",
     "lint:style": "stylelint \"**/*.{scss,sass,css}\"",
