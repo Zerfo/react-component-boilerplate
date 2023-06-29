@@ -28,7 +28,7 @@
 
 ## Работа с проектом
 
-Перед работой с проектом убедитесь что у вас установленны: `node v16` & `npm v8`. Если это не так, установите их вручную
+Перед работой с проектом убедитесь что у вас установленны: `node v18` & `npm v8`. Если это не так, установите их вручную
 или используйте [nvm](https://github.com/nvm-sh/nvm), а именно команду `nvm use`.
 
 | Шаг                                    | Команда                                                                        |
@@ -302,4 +302,5 @@ import 'npm-component-boilerplate/dist/button2.css';
 
 ## История изменений
 
+- 1.0.1 - **29 Июня 2023** Обновление зависемостей ([**@Zerfo**](https://github.com/Zerfo) in [**a8eae3**](https://github.com/Zerfo/react-component-boilerplate/commit/a8eae3886945d25fd3ea1af1bffa29a3840ea1dc))
 - 1.0.0 - **14 Мая 2023** Релиз npm-component-boilerplate ([**@Zerfo**](https://github.com/Zerfo) in [**d72c72**](https://github.com/Zerfo/react-component-boilerplate/commit/d72c72713937a3a3f41fd97be17e6bb9e704757a))
